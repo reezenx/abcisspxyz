@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ISSP": {
+    "issp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ISSP:build:production"
+              "buildTarget": "issp:build:production"
             },
             "development": {
-              "buildTarget": "ISSP:build:development"
+              "buildTarget": "issp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ISSP:build"
+            "buildTarget": "issp:build"
           }
         },
         "test": {
