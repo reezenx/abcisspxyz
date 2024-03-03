@@ -73,7 +73,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     id: 7,
     position: 'President of Sales',
     name: 'Nitrogen',
-    project: 'Modernize Admin',
+    project: 'ISSP Admin',
     symbol: 'N',
     description: `Nitrogen is a chemical element with symbol N and atomic number 7. It was first
         discovered and isolated by Scottish physician Daniel Rutherford in 1772.`,
