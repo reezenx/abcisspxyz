@@ -10,6 +10,21 @@ export const navItems: NavItem[] = [
     route: 'theme-pages/account-setting',
   },
   {
+    displayName: 'Calendar',
+    iconName: 'calendar-event',
+    route: 'apps/calendar',
+  },
+  {
+    displayName: 'Training',
+    iconName: 'certificate',
+    route: 'apps/courses',
+  },
+  {
+    displayName: 'Chat',
+    iconName: 'message-2',
+    route: 'apps/chat',
+  },
+  {
     navCap: 'Admin',
   },
   {
